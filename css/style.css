@@ -1,4 +1,16 @@
 @import url(reset.css);
+@font-face {
+  font-family: "maxim";
+  src: url(https://s20.picofile.com/file/8442613176/MaximRegular.ttf.html);
+}
+@font-face {
+  font-family: "FF Hekaya Light";
+  src: url(https://s20.picofile.com/file/8442613184/FF_Hekaya.otf.html;);
+}
+@font-face {
+  font-family: "Y_Snaap";
+  src: url(https://s21.picofile.com/file/8442613168/Y_Snaap_kalame_font.ttf.html);
+}
 /*========================== 
 General
 ==========================*/
