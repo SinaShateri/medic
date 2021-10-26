@@ -1,14 +1,14 @@
 @import url(reset.css);
 @font-face {
-  font-family: "maxim";
+  font-family: maxim;
   src: url(../fonts/MaximRegular.ttf) format(ttf);
 }
 @font-face {
-  font-family: "FF Hekaya Light";
+  font-family: FF Hekaya Light;
   src: url(../fonts/FF-Hekaya.otf) format(otf);
 }
 @font-face {
-  font-family: "Y_Snaap";
+  font-family: Y_Snaap;
   src: url(../fonts/Y_Snaap.ttf) format(ttf);
 }
 /*========================== 
