@@ -73,7 +73,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "FF Hekaya Light";
+  font-family: "ff_hekayalight";
   text-transform: capitalize;
 }
 
@@ -153,7 +153,7 @@ header {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
-  font-family: "Y_Snaap";
+  font-family: "maxim_sansregular";
 }
 .header-design a h1 {
   color: var(--primary-color);
@@ -373,7 +373,7 @@ Home
   color: #021431;
 }
 .home-description h1 span {
-  font-family: "FF Hekaya Light";
+  font-family: "ff_hekayalight";
   text-transform: lowercase;
   font-size: var(--fs-h1);
   position: absolute;
@@ -494,7 +494,7 @@ Home
   color: #021431;
 }
 .home-description-2 h1 span {
-  font-family: "FF Hekaya Light";
+  font-family: "ff_hekayalight";
   text-transform: lowercase;
   font-size: var(--fs-h1);
   position: absolute;
