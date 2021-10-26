@@ -1,24 +1,4 @@
 @import url(reset.css);
-@font-face {
-  font-family: "maxim";
-  src: url(../fonts/MaximSansRegular.ttf) format(ttf);
-}
-@font-face {
-  font-family: "maxim";
-  src: url(../fonts/MaximSansRegular.woff) format(woff);
-}
-@font-face {
-  font-family: "maxim";
-  src: url(../fonts/MaximSansRegular.woff2) format(woff2);
-}
-@font-face {
-  font-family: "FF Hekaya Light";
-  src: url(../fonts/FF-Hekaya.otf) format(otf);
-}
-@font-face {
-  font-family: "Y_Snaap";
-  src: url(../fonts/Y_Snaap.ttf) format(ttf);
-}
 /*========================== 
 General
 ==========================*/

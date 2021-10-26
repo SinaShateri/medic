@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "maxim_sansregular";
+  src: url("../fonts/MaximSansRegular.woff2") format("woff2"),
+    url("../fonts/MaximSansRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
