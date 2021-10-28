@@ -11,3 +11,4 @@ function show() {
 }
 zoom.on("open", hide);
 zoom.on("close", show);
+
