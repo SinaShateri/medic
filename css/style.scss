@@ -605,7 +605,7 @@ About
     "info"
     "images";
   column-gap: 50px;
-  padding-top: 170px;
+  margin-top: 170px;
 }
 .about-info {
   grid-area: info;
@@ -727,7 +727,7 @@ Timeline
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 120px;
+  margin-top: 120px;
   & > h1 {
     color: #021431;
     text-shadow: 0 0 20px #0214317a;
@@ -827,18 +827,23 @@ Timeline
     left: 150px !important;
     text-align: left !important;
   }
+  .timeline-item {
+    ion-icon {
+      font-size: 2rem;
+    }
+  }
   .timeline-item:nth-child(odd) h2::after {
     left: -12px;
     top: 10px;
     transform: rotate(315deg);
   }
 }
-@media only screen and (max-width:550px) {
+@media only screen and (max-width: 550px) {
   .item-content {
     width: 250px !important;
   }
 }
-@media only screen and (max-width:450px) {
+@media only screen and (max-width: 450px) {
   .item-content {
     width: 200px !important;
     left: 120px !important;
@@ -846,8 +851,18 @@ Timeline
   .item-content.right {
     left: 120px !important;
   }
+  .timeline-item {
+    .item-content {
+      h2 {
+        font-size: 2rem;
+      }
+    }
+    ion-icon {
+      font-size: 1.5rem;
+    }
+  }
 }
-@media only screen and (max-width:350px) {
+@media only screen and (max-width: 350px) {
   .timeline-item {
     padding-bottom: 80px;
   }

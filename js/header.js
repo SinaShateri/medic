@@ -36,3 +36,14 @@ function hideHeader(headerHeight) {
 function showHeader() {
   header.style.transform = `translateY(0px)`;
 }
+
+// scroll spy (Go To)
+
+const desktopLinks = document.querySelectorAll(".desktop-header a");
+const mobileLinks = document.querySelectorAll(".mobile-header-slide a");
+
+desktopLinks.forEach((link) => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+  });
+});
