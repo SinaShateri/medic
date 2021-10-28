@@ -818,6 +818,9 @@ Timeline
 @media only screen and (max-width: 650px) {
   .timeline {
     align-items: flex-start;
+    & > h1 {
+      margin: auto;
+    }
   }
   .item-content {
     width: 350px !important;

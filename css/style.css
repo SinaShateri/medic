@@ -835,6 +835,9 @@ Timeline
   .timeline {
     align-items: flex-start;
   }
+  .timeline > h1 {
+    margin: auto;
+  }
 
   .item-content {
     width: 350px !important;
