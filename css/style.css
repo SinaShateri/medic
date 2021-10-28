@@ -842,6 +842,7 @@ Timeline
   .item-content {
     width: 350px !important;
     left: 150px !important;
+    text-align: left !important;
   }
 
   .timeline-item:nth-child(odd) h2::after {
